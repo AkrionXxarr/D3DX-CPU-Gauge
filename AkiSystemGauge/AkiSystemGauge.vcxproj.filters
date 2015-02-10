@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ErrorHandler">
+      <UniqueIdentifier>{79c1552e-6f0e-4481-99fd-eca067f26f8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Akkle">
+      <UniqueIdentifier>{34a93246-728f-4d4e-ae9e-bc4f73000c79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Gauge">
+      <UniqueIdentifier>{421b564a-315f-4e7d-ba53-2316fc1f287d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Error Handler">
+      <UniqueIdentifier>{030ea2d9-aa1e-47b1-aedb-77dbd2cd5e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Akkle">
+      <UniqueIdentifier>{7b2f1899-d5ed-4196-a4c2-19970a22eeb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Gauge">
+      <UniqueIdentifier>{97c21d91-a2fa-4516-89f0-941881a37139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorHandler.cpp">
+      <Filter>Source Files\ErrorHandler</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_Akkle.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_CleanApp.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_CleanDirect3D.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_CleanProcessMonitor.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_GetProcessorInfo.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_InitApp.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_InitDirect3D.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_InitProcessMonitor.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_InitWindow.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_LoadSurface.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_LoadTexture.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_RecoverDevice.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_Render.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_Tick.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Akkle_WindowProc.cpp">
+      <Filter>Source Files\Akkle</Filter>
+    </ClCompile>
+    <ClCompile Include="Gauge_Clean.cpp">
+      <Filter>Source Files\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Gauge_Draw.cpp">
+      <Filter>Source Files\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Gauge_Gauge.cpp">
+      <Filter>Source Files\Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="Gauge_Tick.cpp">
+      <Filter>Source Files\Gauge</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ErrorHandler.hpp">
+      <Filter>Header Files\Error Handler</Filter>
+    </ClInclude>
+    <ClInclude Include="Akkle.hpp">
+      <Filter>Header Files\Akkle</Filter>
+    </ClInclude>
+    <ClInclude Include="Gauge.hpp">
+      <Filter>Header Files\Gauge</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
